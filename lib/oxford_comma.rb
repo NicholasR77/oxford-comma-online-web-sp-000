@@ -1,4 +1,6 @@
-test_arr = ["element1", "elememt2"]
+test_arr1 = ["element1", "elememt2"]
+test_arr2 = ["element1"]
+test_arr3 = ["element1", "element2", "element2", "element4"]
 
 def oxford_comma(array)
   length = array.length
@@ -7,8 +9,8 @@ def oxford_comma(array)
   elsif (length > 2)
     array.join()
   else
-    array.join("")    
+    array.join("")
   end
 end
 
-puts oxford_comma(test_arr)
+puts oxford_comma(test_arr1)
