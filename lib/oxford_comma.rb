@@ -4,3 +4,5 @@ def oxford_comma(array)
   puts array.last
 
 end
+
+oxford_comma(test_arr)
