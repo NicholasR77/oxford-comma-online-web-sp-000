@@ -13,4 +13,4 @@ def oxford_comma(array)
   end
 end
 
-puts oxford_comma(test_arr1)
+puts oxford_comma(test_arr2)
