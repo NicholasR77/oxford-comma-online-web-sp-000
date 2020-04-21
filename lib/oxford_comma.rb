@@ -5,8 +5,9 @@ def oxford_comma(array)
   array.each.with_index do |element, index|
     if (element == array.last)
       puts "Yay"
+    else
+      puts "#{element} and #{index}"
     end
-    puts "#{element} and #{index}"
   end
 end
 
