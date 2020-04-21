@@ -5,3 +5,5 @@ def oxford_comma(array)
   length = array.length
   puts length
 end
+
+oxford_comma(test_arr)
